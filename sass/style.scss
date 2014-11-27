@@ -1,6 +1,12 @@
 @import "compass/reset";
 @import "compass/css3";
 
+$text-color: #58575F;
+$body-color: #F2EEE8;
+$post-bg-color: #FFFBF5;
+$gray-text-color: #C6C1B0;
+
+
 @mixin font_style($color, $weight, $size) {
     color: $color;
     font-weight: $weight;
@@ -31,6 +37,10 @@
   width: $width;
   float: left;
   position: relative;
+}
+.com_box_style {
+    text-shadow: none;
+    box-shadow: none;
 }
 html {
 
@@ -65,7 +75,7 @@ header {
 		li {
 			@include list_style(15%);
 			div {
-				@include circle(white,black);
+				@include circle(rgba(255,255,255,0),black);
 				border:1px solid gainsboro;
   				@include box-sizing(border-box);
 			}
@@ -73,14 +83,64 @@ header {
 	}
 	
 }
-.icon-twitter {
+.mid_header{
+	@include center(center);
+	width: 33.33%;
+	.icon-twitter {
 		@include center(center);
 		width: 60%;
-		margin-top: 1em;
-	  	@include font_style(#80a8cc, 800, 3em);
-	  	display: inline-block;
-	}
-	.search_group {
-		width: 15%;
+		margin-top: 0.8em;
+		@include font_style(#80a8cc, 800, 3em);
 		display: inline-block;
 	}
+}
+.right_header{
+	width: 33.33%;
+	.search_group {
+		width: 41%;
+		display: inline-block;
+		margin-left: 200px;
+		margin-top: 20px;
+		position: relative;
+		input {
+			border: none;
+			background-color: rgba(255,255,255,0);
+			vertical-align: middle;
+		}
+		input[type='text'] {
+			width: 150px;
+			border-top: 1px solid gainsboro;
+        	border-left: 1px solid gainsboro;
+        	border-bottom: 1px solid gainsboro;
+        	@include border-radius(20px 0 0 20px);
+        	height: 33px;
+		}
+		input[type='button'] {
+			width: 18px;
+			border-top: 1px solid gainsboro;
+        	border-right: 1px solid gainsboro;
+        	border-bottom: 1px solid gainsboro;
+          	@include border-radius(0 20px 20px 0);
+        	height: 37px;
+
+		}
+		p {
+			position: absolute;
+			@include font_style(#605e58, 200, 1.5em);
+			top: 12px;
+			left: 145px;
+		}
+	}
+	.sanji {
+		display: inline-block;
+		float: right;
+
+		img {
+			@include box-size(4em,4em);
+			border-radius: (100%);
+			margin-top: 1.9em;
+			margin-right: 4em;
+		}
+	}
+	
+}
