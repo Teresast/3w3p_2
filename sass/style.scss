@@ -1,2 +1,71 @@
 @import "compass/reset";
 @import "compass/css3";
+
+@mixin font_style($color, $weight, $size) {
+    color: $color;
+    font-weight: $weight;
+    font-size: $size; 
+}
+
+@mixin center($location) {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: $location;
+}
+@mixin box-size($width,$height){
+	width: $width;
+	height: $height;
+}
+@mixin circle($b_color,$f_color){
+	background-color: $b_color;
+	@include box-size(4em,4em);
+	border-radius: 3.5em;
+	margin-top: 1.8em; 
+	p {
+		@include center(center);
+	  	@include font_style($f_color, 800, 2em);
+	  	padding-top: 10px;
+	  }		
+}
+@mixin list_style($width) {
+  width: $width;
+  float: left;
+  position: relative;
+}
+html {
+
+}
+body {
+	font-size: 62.5%;
+}
+header {
+	width: 100%;
+	> * {
+		float: left;
+	}
+}
+.editor {
+    @include box-sizing(border-box);
+	border: 1px solid gainsboro;
+	@include box-size(8em,8em);
+	div {
+		@include circle(#80a8cc,white);
+		@include center(center);
+	}
+}
+
+nav {
+	width: 90%;
+	margin-left: 1.7em;
+	ul {
+		width: 15%;
+		li {
+			@include list_style(33%);
+			div {
+				@include circle(white,black);
+				border:1px solid gainsboro;
+  				@include box-sizing(border-box);
+			}
+		}
+	}
+}
