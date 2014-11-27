@@ -70,24 +70,31 @@ body {
 
 /* line 41, ../sass/style.scss */
 header {
+  background-color: aliceblue;
   width: 100%;
+  height: 8em;
 }
-/* line 43, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 header > * {
   float: left;
 }
 
-/* line 47, ../sass/style.scss */
-.editor {
+/* line 50, ../sass/style.scss */
+.left_header {
+  width: 33.33%;
+}
+/* line 54, ../sass/style.scss */
+.left_header ul .editor {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid gainsboro;
   width: 8em;
   height: 8em;
+  margin-right: 2em;
 }
-/* line 51, ../sass/style.scss */
-.editor div {
+/* line 59, ../sass/style.scss */
+.left_header ul .editor div {
   background-color: #80a8cc;
   width: 4em;
   height: 4em;
@@ -96,9 +103,10 @@ header > * {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  border: none;
 }
 /* line 24, ../sass/style.scss */
-.editor div p {
+.left_header ul .editor div p {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -107,24 +115,14 @@ header > * {
   font-size: 2em;
   padding-top: 10px;
 }
-
-/* line 57, ../sass/style.scss */
-nav {
-  width: 90%;
-  margin-left: 1.7em;
-}
-/* line 60, ../sass/style.scss */
-nav ul {
+/* line 65, ../sass/style.scss */
+.left_header ul li {
   width: 15%;
-}
-/* line 62, ../sass/style.scss */
-nav ul li {
-  width: 33%;
   float: left;
   position: relative;
 }
-/* line 64, ../sass/style.scss */
-nav ul li div {
+/* line 67, ../sass/style.scss */
+.left_header ul li div {
   background-color: white;
   width: 4em;
   height: 4em;
@@ -136,7 +134,7 @@ nav ul li div {
   box-sizing: border-box;
 }
 /* line 24, ../sass/style.scss */
-nav ul li div p {
+.left_header ul li div p {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -144,4 +142,23 @@ nav ul li div p {
   font-weight: 800;
   font-size: 2em;
   padding-top: 10px;
+}
+
+/* line 76, ../sass/style.scss */
+.icon-twitter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 60%;
+  margin-top: 1em;
+  color: #80a8cc;
+  font-weight: 800;
+  font-size: 3em;
+  display: inline-block;
+}
+
+/* line 83, ../sass/style.scss */
+.search_group {
+  width: 15%;
+  display: inline-block;
 }
