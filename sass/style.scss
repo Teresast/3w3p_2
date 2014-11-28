@@ -6,6 +6,7 @@ $body-color: #F2EEE8;
 $post-bg-color: #FFFBF5;
 $gray-text-color: #C6C1B0;
 $blue-bg-color: #80a8cc;
+$dack-blue-color:#6c94b8;
 
 
 @mixin font_style($color, $weight, $size) {
@@ -168,6 +169,38 @@ header {
 			font-family: 'Poiret One', cursive;
 			@include font_style(white, 200, 1.5em);
 		}
+		.icon-link {
+			display: block;
+			margin-top: 1.3em;
+			@include font_style(white, 200, 1.5em);
+			cursor: pointer;
+			text-decoration: blink;
+		}
+		button {
+			margin-top: 2.5em;
+			margin-bottom: 3em;
+			@include box-size(12em,3em);
+			background-color: $dack-blue-color;
+			@extend .com_box_style;
+			border: none;
+			border-radius: (2em);
+			font-family: 'Didact Gothic', sans-serif;
+			@include font_style(white, 200, 1.5em);
+			cursor: pointer;
+		}
 	}
-	
+	.photo_wall {
+		ul {
+			width: 100%;
+			li {
+				@include list_style(33%);
+				height: 94px;
+				img {
+					position: absolute;
+					width: 100%;
+					clip: rect(0, 94px, 94px, 0);
+				}
+			}
+		}
+	}
 }
