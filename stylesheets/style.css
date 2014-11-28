@@ -63,39 +63,47 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 43, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 .com_box_style, .left_aside .blogger button {
   text-shadow: none;
   box-shadow: none;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* line 59, ../sass/style.scss */
 html {
   background-color: #F2EEE8;
 }
 
-/* line 53, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 body {
   font-size: 62.5%;
   position: relative;
 }
 
-/* line 57, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 header {
-  background-color: white;
+  background-color: #FFFBF5;
   width: 100%;
   height: 8em;
+  border-bottom: 1px solid gainsboro;
 }
-/* line 61, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 header > * {
   float: left;
 }
 
-/* line 66, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .left_header {
   width: 33.33%;
 }
-/* line 70, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 .left_header ul .editor {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -105,7 +113,7 @@ header > * {
   height: 8em;
   margin-right: 2em;
 }
-/* line 75, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 .left_header ul .editor div {
   background-color: #80a8cc;
   width: 4em;
@@ -117,7 +125,7 @@ header > * {
   text-align: center;
   border: none;
 }
-/* line 32, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 .left_header ul .editor div p {
   margin-left: auto;
   margin-right: auto;
@@ -127,13 +135,13 @@ header > * {
   font-size: 2em;
   padding-top: 10px;
 }
-/* line 81, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .left_header ul li {
   width: 15%;
   float: left;
   position: relative;
 }
-/* line 83, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 .left_header ul li div {
   background-color: rgba(255, 255, 255, 0);
   width: 4em;
@@ -145,7 +153,7 @@ header > * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 32, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 .left_header ul li div p {
   margin-left: auto;
   margin-right: auto;
@@ -156,14 +164,14 @@ header > * {
   padding-top: 10px;
 }
 
-/* line 92, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 .mid_header {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   width: 33.33%;
 }
-/* line 95, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .mid_header .icon-twitter {
   margin-left: auto;
   margin-right: auto;
@@ -176,11 +184,11 @@ header > * {
   display: inline-block;
 }
 
-/* line 103, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 .right_header {
   width: 33.33%;
 }
-/* line 105, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 .right_header .search_group {
   width: 41%;
   display: inline-block;
@@ -188,13 +196,13 @@ header > * {
   margin-top: 20px;
   position: relative;
 }
-/* line 111, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .right_header .search_group input {
   border: none;
   background-color: rgba(255, 255, 255, 0);
   vertical-align: middle;
 }
-/* line 116, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .right_header .search_group input[type='text'] {
   width: 150px;
   border-top: 1px solid gainsboro;
@@ -205,7 +213,7 @@ header > * {
   border-radius: 20px 0 0 20px;
   height: 33px;
 }
-/* line 124, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .right_header .search_group input[type='button'] {
   width: 18px;
   border-top: 1px solid gainsboro;
@@ -216,7 +224,7 @@ header > * {
   border-radius: 0 20px 20px 0;
   height: 37px;
 }
-/* line 133, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 .right_header .search_group p {
   position: absolute;
   color: #605e58;
@@ -225,12 +233,12 @@ header > * {
   top: 12px;
   left: 145px;
 }
-/* line 141, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .right_header .sanji {
   display: inline-block;
   float: right;
 }
-/* line 145, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .right_header .sanji img {
   width: 4em;
   height: 4em;
@@ -239,25 +247,25 @@ header > * {
   margin-right: 4em;
 }
 
-/* line 155, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .left_aside {
   width: 20%;
   background-color: #80a8cc;
 }
-/* line 158, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .left_aside .blogger {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-/* line 160, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 .left_aside .blogger img {
   width: 9em;
   height: 9em;
   border-radius: 100%;
   margin-top: 5em;
 }
-/* line 165, ../sass/style.scss */
+/* line 175, ../sass/style.scss */
 .left_aside .blogger span {
   display: block;
   margin-top: 0.7em;
@@ -266,7 +274,7 @@ header > * {
   font-size: 2em;
   font-family: 'Nunito', sans-serif;
 }
-/* line 171, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 .left_aside .blogger p {
   margin-top: 0.7em;
   font-family: 'Poiret One', cursive;
@@ -274,7 +282,7 @@ header > * {
   font-weight: 200;
   font-size: 1.5em;
 }
-/* line 176, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .left_aside .blogger .icon-link {
   display: block;
   margin-top: 1.3em;
@@ -284,7 +292,7 @@ header > * {
   cursor: pointer;
   text-decoration: blink;
 }
-/* line 183, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .left_aside .blogger button {
   margin-top: 2.5em;
   margin-bottom: 3em;
@@ -299,11 +307,11 @@ header > * {
   font-size: 1.5em;
   cursor: pointer;
 }
-/* line 197, ../sass/style.scss */
+/* line 207, ../sass/style.scss */
 .left_aside .photo_wall ul {
   width: 100%;
 }
-/* line 199, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 .left_aside .photo_wall ul li {
   width: 33.338%;
   float: left;
@@ -311,19 +319,19 @@ header > * {
   height: 94px;
   border: none;
 }
-/* line 203, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 .left_aside .photo_wall ul li img {
   border: none;
   position: absolute;
   width: 100%;
   clip: rect(0, 95px, 95px, 0);
 }
-/* line 212, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .left_aside .activities {
   margin-left: 2em;
   padding-bottom: 10em;
 }
-/* line 215, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 .left_aside .activities .act_title {
   text-transform: uppercase;
   margin-top: 21em;
@@ -332,18 +340,18 @@ header > * {
   font-weight: 200;
   font-size: 1.5em;
 }
-/* line 222, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .left_aside .activities ul li {
   margin-top: 1em;
 }
-/* line 224, ../sass/style.scss */
+/* line 234, ../sass/style.scss */
 .left_aside .activities ul li .blue_icon {
   color: #6c94b8;
   font-weight: 400;
   font-size: 1.5em;
   margin-right: 0.7em;
 }
-/* line 228, ../sass/style.scss */
+/* line 238, ../sass/style.scss */
 .left_aside .activities ul li .active {
   margin-right: 0.5em;
   font-family: 'Poiret One', cursive;
@@ -351,7 +359,7 @@ header > * {
   font-weight: 400;
   font-size: 1.5em;
 }
-/* line 233, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 .left_aside .activities ul li a {
   font-family: 'Poiret One', cursive;
   color: white;
@@ -360,37 +368,37 @@ header > * {
   cursor: pointer;
 }
 
-/* line 243, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 .main_body {
   width: 55%;
   position: absolute;
   top: 11em;
   left: 32em;
 }
-/* line 250, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 .main_body nav ul {
   width: 100%;
+  background-color: #FFFBF5;
 }
-/* line 252, ../sass/style.scss */
+/* line 264, ../sass/style.scss */
 .main_body nav ul li {
   padding-top: 2em;
   padding-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-color: white;
   width: 25%;
   float: left;
   position: relative;
 }
-/* line 258, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 .main_body nav ul li :first-child {
   font-family: 'Poiret One', cursive;
   color: #C6C1B0;
   font-weight: 200;
   font-size: 2em;
 }
-/* line 262, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 .main_body nav ul li :last-child {
   margin-top: 0.3em;
   font-family: 'Nunito', sans-serif;
@@ -398,12 +406,35 @@ header > * {
   font-weight: 500;
   font-size: 1.7em;
 }
+/* line 279, ../sass/style.scss */
+.main_body nav ul li:hover {
+  border-bottom: 4px solid #80a8cc;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 287, ../sass/style.scss */
+.main_body .blog_list {
+  background-color: #FFFBF5;
+}
 
-/* line 273, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 .right_aside {
   position: absolute;
-  top: 8em;
+  top: 8.1em;
   right: 0em;
-  background-color: white;
+  background-color: #FFFBF5;
   width: 20%;
+}
+/* line 298, ../sass/style.scss */
+.right_aside .right_body {
+  margin-left: 3em;
+  margin-top: 3em;
+}
+/* line 301, ../sass/style.scss */
+.right_aside .right_body p {
+  font-family: 'Poiret One', cursive;
+  color: #58575F;
+  font-weight: 200;
+  font-size: 1.8em;
 }
