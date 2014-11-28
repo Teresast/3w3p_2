@@ -225,8 +225,14 @@ header {
 					margin-right: 0.7em;
 				}
 				.active {
+					margin-right: 0.5em;
 					font-family: 'Poiret One', cursive;
 					@include font_style($dack-blue-color, 400, 1.5em);
+				}
+				a {
+					font-family: 'Poiret One', cursive;
+					@include font_style(white, 200, 1.5em);
+					cursor: pointer;
 				}	
 			}
 		}		

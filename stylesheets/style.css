@@ -339,8 +339,17 @@ header > * {
 }
 /* line 227, ../sass/style.scss */
 .left_aside .activities ul li .active {
+  margin-right: 0.5em;
   font-family: 'Poiret One', cursive;
   color: #6c94b8;
   font-weight: 400;
   font-size: 1.5em;
+}
+/* line 232, ../sass/style.scss */
+.left_aside .activities ul li a {
+  font-family: 'Poiret One', cursive;
+  color: white;
+  font-weight: 200;
+  font-size: 1.5em;
+  cursor: pointer;
 }
