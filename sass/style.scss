@@ -48,13 +48,14 @@ $dack-blue-color:#6c94b8;
 	@include font_style($color, 400, 1.5em);
 }
 html {
-
+	background-color: $body-color;
 }
 body {
 	font-size: 62.5%;
+	position: relative;
 }
 header {
-	background-color: aliceblue;
+	background-color: white;
 	width: 100%;
 	height: 8em;
 	> * {
@@ -237,4 +238,42 @@ header {
 			}
 		}		
 	}
+}
+
+.main_body {
+	width: 55%;
+	position: absolute;
+	top: 11em;
+	left: 32em;
+
+	nav {
+		ul {
+			width: 100%;
+			li {
+				padding-top: 2em;
+				padding-bottom: 2em;
+				@include center(center);
+				background-color: white;
+				@include list_style(25%);
+				:first-child {
+					font-family: 'Poiret One', cursive;
+					@include font_style($gray-text-color, 200, 2em);
+				}
+				:last-child {
+					margin-top: 0.3em;
+					font-family: 'Nunito', sans-serif;
+	  				@include font_style($text-color, 500, 1.7em);
+
+				}
+			}
+		}
+	}
+}
+
+.right_aside {
+	position: absolute;
+	top: 8em;
+	right: 0em;
+	background-color: white;
+	width: 20%;
 }
