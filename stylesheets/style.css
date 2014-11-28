@@ -232,3 +232,39 @@ header > * {
   margin-top: 1.9em;
   margin-right: 4em;
 }
+
+/* line 150, ../sass/style.scss */
+.left_aside {
+  width: 20%;
+  background-color: #80a8cc;
+}
+/* line 153, ../sass/style.scss */
+.left_aside .blogger {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+/* line 155, ../sass/style.scss */
+.left_aside .blogger img {
+  width: 9em;
+  height: 9em;
+  border-radius: 100%;
+  margin-top: 5em;
+}
+/* line 160, ../sass/style.scss */
+.left_aside .blogger span {
+  display: block;
+  margin-top: 0.7em;
+  color: white;
+  font-weight: 400;
+  font-size: 2em;
+  font-family: 'Nunito', sans-serif;
+}
+/* line 166, ../sass/style.scss */
+.left_aside .blogger p {
+  margin-top: 0.7em;
+  font-family: 'Poiret One', cursive;
+  color: white;
+  font-weight: 200;
+  font-size: 1.5em;
+}

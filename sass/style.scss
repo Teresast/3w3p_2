@@ -132,7 +132,7 @@ header {
 			left: 145px;
 		}
 	}
-	
+
 	.sanji {
 		display: inline-block;
 		float: right;
@@ -142,6 +142,31 @@ header {
 			border-radius: (100%);
 			margin-top: 1.9em;
 			margin-right: 4em;
+		}
+	}
+	
+}
+
+.left_aside {
+	width: 20%;
+	background-color: $blue-bg-color;
+	.blogger{
+		@include center(center);			
+		img {
+			@include box-size(9em,9em);
+			border-radius: (100%);
+			margin-top: 5em;
+		}
+		span {
+			display: block;
+			margin-top: 0.7em;
+			@include font_style(white, 400, 2em);
+			font-family: 'Nunito', sans-serif;
+		}
+		p {
+			margin-top: 0.7em;
+			font-family: 'Poiret One', cursive;
+			@include font_style(white, 200, 1.5em);
 		}
 	}
 	
