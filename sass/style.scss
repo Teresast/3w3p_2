@@ -44,6 +44,9 @@ $dack-blue-color:#6c94b8;
     text-shadow: none;
     box-shadow: none;
 }
+@mixin icon_style($color) {
+	@include font_style($color, 400, 1.5em);
+}
 html {
 
 }
@@ -193,14 +196,39 @@ header {
 		ul {
 			width: 100%;
 			li {
-				@include list_style(33%);
+				@include list_style(33.338%);
 				height: 94px;
+				border: none;
 				img {
+					border: none;
 					position: absolute;
 					width: 100%;
-					clip: rect(0, 94px, 94px, 0);
+					clip: rect(0, 95px, 95px, 0);
 				}
 			}
 		}
+	}
+	.activities {
+		margin-left: 2em;
+		padding-bottom: 10em; 
+		.act_title {
+			text-transform:uppercase;
+			margin-top: 21em;
+			font-family: 'Poiret One', cursive;
+			@include font_style(white, 200, 1.5em);
+		}
+		ul {
+			li {
+				margin-top: 1em;
+				.blue_icon {
+					@include icon_style($dack-blue-color);
+					margin-right: 0.7em;
+				}
+				.active {
+					font-family: 'Poiret One', cursive;
+					@include font_style($dack-blue-color, 400, 1.5em);
+				}	
+			}
+		}		
 	}
 }
