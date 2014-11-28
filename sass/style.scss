@@ -5,6 +5,7 @@ $text-color: #58575F;
 $body-color: #F2EEE8;
 $post-bg-color: #FFFBF5;
 $gray-text-color: #C6C1B0;
+$blue-bg-color: #80a8cc;
 
 
 @mixin font_style($color, $weight, $size) {
@@ -131,6 +132,7 @@ header {
 			left: 145px;
 		}
 	}
+	
 	.sanji {
 		display: inline-block;
 		float: right;

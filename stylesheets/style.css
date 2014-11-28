@@ -63,33 +63,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 41, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .com_box_style {
   text-shadow: none;
   box-shadow: none;
 }
 
-/* line 48, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 body {
   font-size: 62.5%;
 }
 
-/* line 51, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 header {
   background-color: aliceblue;
   width: 100%;
   height: 8em;
 }
-/* line 55, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 header > * {
   float: left;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .left_header {
   width: 33.33%;
 }
-/* line 64, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .left_header ul .editor {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -99,7 +99,7 @@ header > * {
   height: 8em;
   margin-right: 2em;
 }
-/* line 69, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .left_header ul .editor div {
   background-color: #80a8cc;
   width: 4em;
@@ -111,7 +111,7 @@ header > * {
   text-align: center;
   border: none;
 }
-/* line 30, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .left_header ul .editor div p {
   margin-left: auto;
   margin-right: auto;
@@ -121,13 +121,13 @@ header > * {
   font-size: 2em;
   padding-top: 10px;
 }
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .left_header ul li {
   width: 15%;
   float: left;
   position: relative;
 }
-/* line 77, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 .left_header ul li div {
   background-color: rgba(255, 255, 255, 0);
   width: 4em;
@@ -139,7 +139,7 @@ header > * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 30, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .left_header ul li div p {
   margin-left: auto;
   margin-right: auto;
@@ -150,14 +150,14 @@ header > * {
   padding-top: 10px;
 }
 
-/* line 86, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 .mid_header {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   width: 33.33%;
 }
-/* line 89, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .mid_header .icon-twitter {
   margin-left: auto;
   margin-right: auto;
@@ -170,11 +170,11 @@ header > * {
   display: inline-block;
 }
 
-/* line 97, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 .right_header {
   width: 33.33%;
 }
-/* line 99, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .right_header .search_group {
   width: 41%;
   display: inline-block;
@@ -182,13 +182,13 @@ header > * {
   margin-top: 20px;
   position: relative;
 }
-/* line 105, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .right_header .search_group input {
   border: none;
   background-color: rgba(255, 255, 255, 0);
   vertical-align: middle;
 }
-/* line 110, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 .right_header .search_group input[type='text'] {
   width: 150px;
   border-top: 1px solid gainsboro;
@@ -199,7 +199,7 @@ header > * {
   border-radius: 20px 0 0 20px;
   height: 33px;
 }
-/* line 118, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 .right_header .search_group input[type='button'] {
   width: 18px;
   border-top: 1px solid gainsboro;
@@ -210,7 +210,7 @@ header > * {
   border-radius: 0 20px 20px 0;
   height: 37px;
 }
-/* line 127, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .right_header .search_group p {
   position: absolute;
   color: #605e58;
@@ -219,12 +219,12 @@ header > * {
   top: 12px;
   left: 145px;
 }
-/* line 134, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .right_header .sanji {
   display: inline-block;
   float: right;
 }
-/* line 138, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .right_header .sanji img {
   width: 4em;
   height: 4em;
