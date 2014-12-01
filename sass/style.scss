@@ -317,7 +317,6 @@ header {
 		border-bottom: 1px solid $body-color;
 		.head_photo{
 			margin-left: 3em;
-
 			background-image: url(../imgs/sanji.jpg);
 			@include box_size(4em,4em);
 			background-size: cover;
@@ -326,6 +325,11 @@ header {
 		}
 		section {
 			margin-left: 9em;
+			margin-right: 2em;
+			:first-child {
+				@include font_style($text-color, 400, 1.5em);
+				font-family: 'Nunito', sans-serif;
+			}
 		}
 	} 
 }

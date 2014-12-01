@@ -463,7 +463,15 @@ header > * {
   position: absolute;
   border-radius: 100%;
 }
-/* line 327, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .blog_list article section {
   margin-left: 9em;
+  margin-right: 2em;
+}
+/* line 329, ../sass/style.scss */
+.blog_list article section :first-child {
+  color: #58575F;
+  font-weight: 400;
+  font-size: 1.5em;
+  font-family: 'Nunito', sans-serif;
 }
