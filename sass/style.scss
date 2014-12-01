@@ -32,7 +32,7 @@ $dack-blue-color:#6c94b8;
 	margin-top: 1.8em; 
 	p {
 		@include center(center);
-	  	@include font_style($f_color, 800, 2em);
+	  	@include font_style($f_color, 400, 2em);
 	  	padding-top: 10px;
 	  }		
 }
@@ -106,7 +106,7 @@ header {
 		@include center(center);
 		width: 60%;
 		margin-top: 0.8em;
-		@include font_style(#80a8cc, 800, 3em);
+		@include font_style(#80a8cc, 400, 3em);
 		display: inline-block;
 	}
 }
@@ -329,6 +329,26 @@ header {
 			:first-child {
 				@include font_style($text-color, 400, 1.5em);
 				font-family: 'Nunito', sans-serif;
+			}
+			.gray_text {
+				font-family: 'Poiret One', cursive;
+				@include font_style($gray-text-color, 200, 1.5em);
+			}
+			.gray_icon {
+				@include font_style($gray-text-color, 200, 1.5em);
+				margin-right: 1em;
+			}
+			:nth-child(3) {
+				margin-left: 36em;
+			}
+			:last-child {
+				margin-left: 34em;
+			}
+			p {
+				margin-top: 1em;
+				margin-bottom: 1em;
+				font-family: 'Poiret One', cursive;
+				@include font_style($text-color, 200, 1.5em);
 			}
 		}
 	} 
