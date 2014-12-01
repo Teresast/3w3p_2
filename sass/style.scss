@@ -130,6 +130,10 @@ header {
         	border-bottom: 1px solid gainsboro;
         	@include border-radius(20px 0 0 20px);
         	height: 33px;
+        	@include input-placeholder {
+	            font-size: 1.1em;
+	            padding-left: 1em;
+        	}
 		}
 		input[type='button'] {
 			width: 18px;
@@ -164,6 +168,7 @@ header {
 
 .left_aside {
 	width: 20%;
+	height: 116.4em;
 	background-color: $blue-bg-color;
 	.blogger{
 		@include center(center);			
@@ -296,7 +301,7 @@ header {
 	background-color: $post-bg-color;
 	width: 20%;
 	font-family: 'Poiret One', cursive;
-	height: 101em;
+	height: 116.4em;
 	.right_top {
 		margin-left: 3em;
 		margin-top: 3em;
@@ -332,7 +337,6 @@ header {
 			li {
 				height: 5em;
 				.follower {
-					background-image: url(../imgs/sanji.jpg);
 					@include box_size(4em,4em);
 					background-size: cover;
 					position: absolute;
@@ -413,6 +417,11 @@ header {
 				margin-bottom: 1em;
 				font-family: 'Poiret One', cursive;
 				@include font_style($text-color, 200, 1.5em);
+			}
+			img {
+				@include box_size(65em,40em);
+				margin-top: 1em;
+				margin-bottom: 1em;
 			}
 		}
 	} 

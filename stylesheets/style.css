@@ -213,7 +213,27 @@ header > * {
   border-radius: 20px 0 0 20px;
   height: 33px;
 }
-/* line 134, ../sass/style.scss */
+/* line 61, ../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
+.right_header .search_group input[type='text']:-moz-placeholder {
+  font-size: 1.1em;
+  padding-left: 1em;
+}
+/* line 64, ../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
+.right_header .search_group input[type='text']::-moz-placeholder {
+  font-size: 1.1em;
+  padding-left: 1em;
+}
+/* line 67, ../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
+.right_header .search_group input[type='text']:-ms-input-placeholder {
+  font-size: 1.1em;
+  padding-left: 1em;
+}
+/* line 56, ../../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
+.right_header .search_group input[type='text']::-webkit-input-placeholder {
+  font-size: 1.1em;
+  padding-left: 1em;
+}
+/* line 138, ../sass/style.scss */
 .right_header .search_group input[type='button'] {
   width: 18px;
   border-top: 1px solid gainsboro;
@@ -224,7 +244,7 @@ header > * {
   border-radius: 0 20px 20px 0;
   height: 37px;
 }
-/* line 143, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .right_header .search_group p {
   position: absolute;
   color: #605e58;
@@ -233,12 +253,12 @@ header > * {
   top: 12px;
   left: 145px;
 }
-/* line 151, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .right_header .sanji {
   display: inline-block;
   float: right;
 }
-/* line 155, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 .right_header .sanji img {
   width: 4em;
   height: 4em;
@@ -247,25 +267,26 @@ header > * {
   margin-right: 4em;
 }
 
-/* line 165, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 .left_aside {
   width: 20%;
+  height: 116.4em;
   background-color: #80a8cc;
 }
-/* line 168, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 .left_aside .blogger {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-/* line 170, ../sass/style.scss */
+/* line 175, ../sass/style.scss */
 .left_aside .blogger img {
   width: 9em;
   height: 9em;
   border-radius: 100%;
   margin-top: 5em;
 }
-/* line 175, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .left_aside .blogger span {
   display: block;
   margin-top: 0.7em;
@@ -274,7 +295,7 @@ header > * {
   font-size: 2em;
   font-family: 'Nunito', sans-serif;
 }
-/* line 181, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .left_aside .blogger p {
   margin-top: 0.7em;
   font-family: 'Poiret One', cursive;
@@ -282,7 +303,7 @@ header > * {
   font-weight: 200;
   font-size: 1.5em;
 }
-/* line 186, ../sass/style.scss */
+/* line 191, ../sass/style.scss */
 .left_aside .blogger .icon-link {
   display: block;
   margin-top: 1.3em;
@@ -292,7 +313,7 @@ header > * {
   cursor: pointer;
   text-decoration: blink;
 }
-/* line 193, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .left_aside .blogger button {
   margin-top: 2.5em;
   margin-bottom: 3em;
@@ -307,11 +328,11 @@ header > * {
   font-size: 1.5em;
   cursor: pointer;
 }
-/* line 207, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .left_aside .photo_wall ul {
   width: 100%;
 }
-/* line 209, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 .left_aside .photo_wall ul li {
   width: 33.338%;
   float: left;
@@ -319,19 +340,19 @@ header > * {
   height: 94px;
   border: none;
 }
-/* line 213, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .left_aside .photo_wall ul li img {
   border: none;
   position: absolute;
   width: 100%;
   clip: rect(0, 95px, 95px, 0);
 }
-/* line 222, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .left_aside .activities {
   margin-left: 2em;
   padding-bottom: 10em;
 }
-/* line 225, ../sass/style.scss */
+/* line 230, ../sass/style.scss */
 .left_aside .activities .act_title {
   text-transform: uppercase;
   margin-top: 21em;
@@ -340,18 +361,18 @@ header > * {
   font-weight: 200;
   font-size: 1.5em;
 }
-/* line 232, ../sass/style.scss */
+/* line 237, ../sass/style.scss */
 .left_aside .activities ul li {
   margin-top: 1em;
 }
-/* line 234, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 .left_aside .activities ul li .blue_icon {
   color: #6c94b8;
   font-weight: 400;
   font-size: 1.5em;
   margin-right: 0.7em;
 }
-/* line 238, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 .left_aside .activities ul li .active {
   margin-right: 0.5em;
   font-family: 'Poiret One', cursive;
@@ -359,7 +380,7 @@ header > * {
   font-weight: 400;
   font-size: 1.5em;
 }
-/* line 243, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 .left_aside .activities ul li a {
   font-family: 'Poiret One', cursive;
   color: white;
@@ -368,19 +389,19 @@ header > * {
   cursor: pointer;
 }
 
-/* line 253, ../sass/style.scss */
+/* line 258, ../sass/style.scss */
 .main_body {
   width: 55%;
   position: absolute;
   top: 11em;
   left: 32em;
 }
-/* line 260, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 .main_body nav ul {
   width: 100%;
   background-color: #FFFBF5;
 }
-/* line 264, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 .main_body nav ul li {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -391,14 +412,14 @@ header > * {
   float: left;
   position: relative;
 }
-/* line 269, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 .main_body nav ul li :first-child {
   font-family: 'Poiret One', cursive;
   color: #C6C1B0;
   font-weight: 200;
   font-size: 2em;
 }
-/* line 273, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .main_body nav ul li :last-child {
   margin-top: 0.3em;
   font-family: 'Nunito', sans-serif;
@@ -406,19 +427,19 @@ header > * {
   font-weight: 500;
   font-size: 1.7em;
 }
-/* line 279, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 .main_body nav ul li:hover {
   border-bottom: 4px solid #80a8cc;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 287, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 .main_body .blog_list {
   background-color: #FFFBF5;
 }
 
-/* line 292, ../sass/style.scss */
+/* line 297, ../sass/style.scss */
 .right_aside {
   position: absolute;
   top: 8.1em;
@@ -426,28 +447,28 @@ header > * {
   background-color: #FFFBF5;
   width: 20%;
   font-family: 'Poiret One', cursive;
-  height: 101em;
+  height: 116.4em;
 }
-/* line 300, ../sass/style.scss */
+/* line 305, ../sass/style.scss */
 .right_aside .right_top {
   margin-left: 3em;
   margin-top: 3em;
 }
-/* line 303, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 .right_aside .right_top p {
   color: #58575F;
   font-weight: 200;
   font-size: 1.8em;
 }
-/* line 306, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
 .right_aside .right_top ul {
   margin-top: 2em;
 }
-/* line 308, ../sass/style.scss */
+/* line 313, ../sass/style.scss */
 .right_aside .right_top ul li {
   margin-bottom: 1em;
 }
-/* line 310, ../sass/style.scss */
+/* line 315, ../sass/style.scss */
 .right_aside .right_top ul li a {
   cursor: pointer;
   text-decoration: blink;
@@ -455,18 +476,18 @@ header > * {
   font-weight: 200;
   font-size: 1.6em;
 }
-/* line 318, ../sass/style.scss */
+/* line 323, ../sass/style.scss */
 .right_aside .right_bottom {
   margin-left: 3em;
   margin-top: 3em;
 }
-/* line 321, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .right_aside .right_bottom span {
   color: #58575F;
   font-weight: 200;
   font-size: 1.8em;
 }
-/* line 324, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 .right_aside .right_bottom a {
   cursor: pointer;
   text-decoration: blink;
@@ -475,29 +496,28 @@ header > * {
   font-size: 1.6em;
   margin-left: 1em;
 }
-/* line 330, ../sass/style.scss */
+/* line 335, ../sass/style.scss */
 .right_aside .right_bottom ul {
   margin-top: 1.5em;
 }
-/* line 332, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 .right_aside .right_bottom ul li {
   height: 5em;
 }
-/* line 334, ../sass/style.scss */
+/* line 339, ../sass/style.scss */
 .right_aside .right_bottom ul li .follower {
-  background-image: url(../imgs/sanji.jpg);
   width: 4em;
   height: 4em;
   background-size: cover;
   position: absolute;
   border-radius: 100%;
 }
-/* line 341, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 .right_aside .right_bottom ul li p {
   margin-left: 3em;
   font-family: 'Nunito', sans-serif;
 }
-/* line 345, ../sass/style.scss */
+/* line 349, ../sass/style.scss */
 .right_aside .right_bottom ul li .plus {
   border: 1px solid #F2EEE8;
   width: 2em;
@@ -506,7 +526,7 @@ header > * {
   position: absolute;
   cursor: pointer;
 }
-/* line 351, ../sass/style.scss */
+/* line 355, ../sass/style.scss */
 .right_aside .right_bottom ul li .plus p {
   margin-left: 0.3em;
   margin-top: 0em;
@@ -514,25 +534,25 @@ header > * {
   font-weight: 100;
   font-size: 1.5em;
 }
-/* line 357, ../sass/style.scss */
+/* line 361, ../sass/style.scss */
 .right_aside .right_bottom ul li :nth-child(2) {
   color: #58575F;
   font-weight: 200;
   font-size: 1.6em;
 }
-/* line 360, ../sass/style.scss */
+/* line 364, ../sass/style.scss */
 .right_aside .right_bottom ul li :last-child {
   color: #C6C1B0;
   font-weight: 200;
   font-size: 1.6em;
 }
 
-/* line 369, ../sass/style.scss */
+/* line 373, ../sass/style.scss */
 .blog_list {
   width: 100%;
   margin-top: 3em;
 }
-/* line 372, ../sass/style.scss */
+/* line 376, ../sass/style.scss */
 .blog_list article {
   width: 100%;
   padding-top: 3em;
@@ -541,7 +561,7 @@ header > * {
   background-color: #FFFBF5;
   border-bottom: 1px solid #F2EEE8;
 }
-/* line 379, ../sass/style.scss */
+/* line 383, ../sass/style.scss */
 .blog_list article .head_photo {
   margin-left: 3em;
   background-image: url(../imgs/sanji.jpg);
@@ -551,47 +571,47 @@ header > * {
   position: absolute;
   border-radius: 100%;
 }
-/* line 387, ../sass/style.scss */
+/* line 391, ../sass/style.scss */
 .blog_list article section {
   margin-left: 9em;
   margin-right: 2em;
 }
-/* line 390, ../sass/style.scss */
+/* line 394, ../sass/style.scss */
 .blog_list article section :first-child {
   color: #58575F;
   font-weight: 400;
   font-size: 1.5em;
   font-family: 'Nunito', sans-serif;
 }
-/* line 394, ../sass/style.scss */
+/* line 398, ../sass/style.scss */
 .blog_list article section .gray_text {
   font-family: 'Poiret One', cursive;
   color: #C6C1B0;
   font-weight: 200;
   font-size: 1.5em;
 }
-/* line 398, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 .blog_list article section .gray_icon {
   color: #C6C1B0;
   font-weight: 200;
   font-size: 1.5em;
   margin-right: 1em;
 }
-/* line 401, ../sass/style.scss */
+/* line 405, ../sass/style.scss */
 .blog_list article section .gray_icon:hover {
   color: dimgrey;
   font-weight: 200;
   font-size: 1.5em;
 }
-/* line 405, ../sass/style.scss */
+/* line 409, ../sass/style.scss */
 .blog_list article section :nth-child(3) {
   margin-left: 36em;
 }
-/* line 408, ../sass/style.scss */
+/* line 412, ../sass/style.scss */
 .blog_list article section :last-child {
   margin-left: 34em;
 }
-/* line 411, ../sass/style.scss */
+/* line 415, ../sass/style.scss */
 .blog_list article section p {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -599,4 +619,11 @@ header > * {
   color: #58575F;
   font-weight: 200;
   font-size: 1.5em;
+}
+/* line 421, ../sass/style.scss */
+.blog_list article section img {
+  width: 65em;
+  height: 40em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
