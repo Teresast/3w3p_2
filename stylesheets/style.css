@@ -438,3 +438,32 @@ header > * {
   font-weight: 200;
   font-size: 1.8em;
 }
+
+/* line 308, ../sass/style.scss */
+.blog_list {
+  width: 100%;
+  margin-top: 3em;
+}
+/* line 311, ../sass/style.scss */
+.blog_list article {
+  width: 100%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  position: relative;
+  background-color: #FFFBF5;
+  border-bottom: 1px solid #F2EEE8;
+}
+/* line 318, ../sass/style.scss */
+.blog_list article .head_photo {
+  margin-left: 3em;
+  background-image: url(../imgs/sanji.jpg);
+  width: 4em;
+  height: 4em;
+  background-size: cover;
+  position: absolute;
+  border-radius: 100%;
+}
+/* line 327, ../sass/style.scss */
+.blog_list article section {
+  margin-left: 9em;
+}

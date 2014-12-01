@@ -304,3 +304,28 @@ header {
 		}
 	}	
 }
+
+.blog_list {
+	width: 100%;
+	margin-top: 3em;
+	article {
+		width: 100%;
+		padding-top: 3em;
+		padding-bottom: 3em;
+		position: relative;
+		background-color: $post-bg-color;
+		border-bottom: 1px solid $body-color;
+		.head_photo{
+			margin-left: 3em;
+
+			background-image: url(../imgs/sanji.jpg);
+			@include box_size(4em,4em);
+			background-size: cover;
+			position: absolute;
+			border-radius: (100%);
+		}
+		section {
+			margin-left: 9em;
+		}
+	} 
+}
