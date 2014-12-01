@@ -425,28 +425,29 @@ header > * {
   right: 0em;
   background-color: #FFFBF5;
   width: 20%;
+  font-family: 'Poiret One', cursive;
+  height: 101em;
 }
-/* line 298, ../sass/style.scss */
+/* line 300, ../sass/style.scss */
 .right_aside .right_top {
   margin-left: 3em;
   margin-top: 3em;
-  font-family: 'Poiret One', cursive;
 }
-/* line 302, ../sass/style.scss */
+/* line 303, ../sass/style.scss */
 .right_aside .right_top p {
   color: #58575F;
   font-weight: 200;
   font-size: 1.8em;
 }
-/* line 305, ../sass/style.scss */
+/* line 306, ../sass/style.scss */
 .right_aside .right_top ul {
   margin-top: 2em;
 }
-/* line 307, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 .right_aside .right_top ul li {
   margin-bottom: 1em;
 }
-/* line 309, ../sass/style.scss */
+/* line 310, ../sass/style.scss */
 .right_aside .right_top ul li a {
   cursor: pointer;
   text-decoration: blink;
@@ -454,13 +455,84 @@ header > * {
   font-weight: 200;
   font-size: 1.6em;
 }
+/* line 318, ../sass/style.scss */
+.right_aside .right_bottom {
+  margin-left: 3em;
+  margin-top: 3em;
+}
+/* line 321, ../sass/style.scss */
+.right_aside .right_bottom span {
+  color: #58575F;
+  font-weight: 200;
+  font-size: 1.8em;
+}
+/* line 324, ../sass/style.scss */
+.right_aside .right_bottom a {
+  cursor: pointer;
+  text-decoration: blink;
+  color: #80a8cc;
+  font-weight: 200;
+  font-size: 1.6em;
+  margin-left: 1em;
+}
+/* line 330, ../sass/style.scss */
+.right_aside .right_bottom ul {
+  margin-top: 1.5em;
+}
+/* line 332, ../sass/style.scss */
+.right_aside .right_bottom ul li {
+  height: 5em;
+}
+/* line 334, ../sass/style.scss */
+.right_aside .right_bottom ul li .follower {
+  background-image: url(../imgs/sanji.jpg);
+  width: 4em;
+  height: 4em;
+  background-size: cover;
+  position: absolute;
+  border-radius: 100%;
+}
+/* line 341, ../sass/style.scss */
+.right_aside .right_bottom ul li p {
+  margin-left: 3em;
+  font-family: 'Nunito', sans-serif;
+}
+/* line 345, ../sass/style.scss */
+.right_aside .right_bottom ul li .plus {
+  border: 1px solid #F2EEE8;
+  width: 2em;
+  height: 2em;
+  margin-left: 21em;
+  position: absolute;
+  cursor: pointer;
+}
+/* line 351, ../sass/style.scss */
+.right_aside .right_bottom ul li .plus p {
+  margin-left: 0.3em;
+  margin-top: 0em;
+  color: #58575F;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+/* line 357, ../sass/style.scss */
+.right_aside .right_bottom ul li :nth-child(2) {
+  color: #58575F;
+  font-weight: 200;
+  font-size: 1.6em;
+}
+/* line 360, ../sass/style.scss */
+.right_aside .right_bottom ul li :last-child {
+  color: #C6C1B0;
+  font-weight: 200;
+  font-size: 1.6em;
+}
 
-/* line 319, ../sass/style.scss */
+/* line 369, ../sass/style.scss */
 .blog_list {
   width: 100%;
   margin-top: 3em;
 }
-/* line 322, ../sass/style.scss */
+/* line 372, ../sass/style.scss */
 .blog_list article {
   width: 100%;
   padding-top: 3em;
@@ -469,7 +541,7 @@ header > * {
   background-color: #FFFBF5;
   border-bottom: 1px solid #F2EEE8;
 }
-/* line 329, ../sass/style.scss */
+/* line 379, ../sass/style.scss */
 .blog_list article .head_photo {
   margin-left: 3em;
   background-image: url(../imgs/sanji.jpg);
@@ -479,41 +551,47 @@ header > * {
   position: absolute;
   border-radius: 100%;
 }
-/* line 337, ../sass/style.scss */
+/* line 387, ../sass/style.scss */
 .blog_list article section {
   margin-left: 9em;
   margin-right: 2em;
 }
-/* line 340, ../sass/style.scss */
+/* line 390, ../sass/style.scss */
 .blog_list article section :first-child {
   color: #58575F;
   font-weight: 400;
   font-size: 1.5em;
   font-family: 'Nunito', sans-serif;
 }
-/* line 344, ../sass/style.scss */
+/* line 394, ../sass/style.scss */
 .blog_list article section .gray_text {
   font-family: 'Poiret One', cursive;
   color: #C6C1B0;
   font-weight: 200;
   font-size: 1.5em;
 }
-/* line 348, ../sass/style.scss */
+/* line 398, ../sass/style.scss */
 .blog_list article section .gray_icon {
   color: #C6C1B0;
   font-weight: 200;
   font-size: 1.5em;
   margin-right: 1em;
 }
-/* line 352, ../sass/style.scss */
+/* line 401, ../sass/style.scss */
+.blog_list article section .gray_icon:hover {
+  color: dimgrey;
+  font-weight: 200;
+  font-size: 1.5em;
+}
+/* line 405, ../sass/style.scss */
 .blog_list article section :nth-child(3) {
   margin-left: 36em;
 }
-/* line 355, ../sass/style.scss */
+/* line 408, ../sass/style.scss */
 .blog_list article section :last-child {
   margin-left: 34em;
 }
-/* line 358, ../sass/style.scss */
+/* line 411, ../sass/style.scss */
 .blog_list article section p {
   margin-top: 1em;
   margin-bottom: 1em;
