@@ -295,12 +295,23 @@ header {
 	right: 0em;
 	background-color: $post-bg-color;
 	width: 20%;
-	.right_body {
+	.right_top {
 		margin-left: 3em;
 		margin-top: 3em;
-		p {
 		font-family: 'Poiret One', cursive;
+		p {
 		@include font_style($text-color, 200, 1.8em);
+		}
+		ul {
+			margin-top: 2em;
+			li {
+				margin-bottom: 1em;
+				a {
+					cursor: pointer;
+					text-decoration: blink;
+	  				@include font_style($blue-bg-color, 200, 1.6em);
+				}
+			}
 		}
 	}	
 }

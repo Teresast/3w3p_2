@@ -427,24 +427,40 @@ header > * {
   width: 20%;
 }
 /* line 298, ../sass/style.scss */
-.right_aside .right_body {
+.right_aside .right_top {
   margin-left: 3em;
   margin-top: 3em;
-}
-/* line 301, ../sass/style.scss */
-.right_aside .right_body p {
   font-family: 'Poiret One', cursive;
+}
+/* line 302, ../sass/style.scss */
+.right_aside .right_top p {
   color: #58575F;
   font-weight: 200;
   font-size: 1.8em;
 }
+/* line 305, ../sass/style.scss */
+.right_aside .right_top ul {
+  margin-top: 2em;
+}
+/* line 307, ../sass/style.scss */
+.right_aside .right_top ul li {
+  margin-bottom: 1em;
+}
+/* line 309, ../sass/style.scss */
+.right_aside .right_top ul li a {
+  cursor: pointer;
+  text-decoration: blink;
+  color: #80a8cc;
+  font-weight: 200;
+  font-size: 1.6em;
+}
 
-/* line 308, ../sass/style.scss */
+/* line 319, ../sass/style.scss */
 .blog_list {
   width: 100%;
   margin-top: 3em;
 }
-/* line 311, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 .blog_list article {
   width: 100%;
   padding-top: 3em;
@@ -453,7 +469,7 @@ header > * {
   background-color: #FFFBF5;
   border-bottom: 1px solid #F2EEE8;
 }
-/* line 318, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 .blog_list article .head_photo {
   margin-left: 3em;
   background-image: url(../imgs/sanji.jpg);
@@ -463,41 +479,41 @@ header > * {
   position: absolute;
   border-radius: 100%;
 }
-/* line 326, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 .blog_list article section {
   margin-left: 9em;
   margin-right: 2em;
 }
-/* line 329, ../sass/style.scss */
+/* line 340, ../sass/style.scss */
 .blog_list article section :first-child {
   color: #58575F;
   font-weight: 400;
   font-size: 1.5em;
   font-family: 'Nunito', sans-serif;
 }
-/* line 333, ../sass/style.scss */
+/* line 344, ../sass/style.scss */
 .blog_list article section .gray_text {
   font-family: 'Poiret One', cursive;
   color: #C6C1B0;
   font-weight: 200;
   font-size: 1.5em;
 }
-/* line 337, ../sass/style.scss */
+/* line 348, ../sass/style.scss */
 .blog_list article section .gray_icon {
   color: #C6C1B0;
   font-weight: 200;
   font-size: 1.5em;
   margin-right: 1em;
 }
-/* line 341, ../sass/style.scss */
+/* line 352, ../sass/style.scss */
 .blog_list article section :nth-child(3) {
   margin-left: 36em;
 }
-/* line 344, ../sass/style.scss */
+/* line 355, ../sass/style.scss */
 .blog_list article section :last-child {
   margin-left: 34em;
 }
-/* line 347, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 .blog_list article section p {
   margin-top: 1em;
   margin-bottom: 1em;
