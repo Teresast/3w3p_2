@@ -334,7 +334,7 @@ header > * {
 }
 /* line 214, ../sass/style.scss */
 .left_aside .photo_wall ul li {
-  width: 33.338%;
+  width: 33.33%;
   float: left;
   position: relative;
   height: 94px;
@@ -345,7 +345,7 @@ header > * {
   border: none;
   position: absolute;
   width: 100%;
-  clip: rect(0, 95px, 95px, 0);
+  clip: rect(0, 96px, 95px, 0);
 }
 /* line 227, ../sass/style.scss */
 .left_aside .activities {

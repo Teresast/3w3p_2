@@ -212,14 +212,14 @@ header {
 		ul {
 			width: 100%;
 			li {
-				@include list_style(33.338%);
+				@include list_style(33.33%);
 				height: 94px;
 				border: none;
 				img {
 					border: none;
 					position: absolute;
 					width: 100%;
-					clip: rect(0, 95px, 95px, 0);
+					clip: rect(0, 96px, 95px, 0);
 				}
 			}
 		}
