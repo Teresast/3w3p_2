@@ -418,7 +418,7 @@ header {
 				font-family: 'Poiret One', cursive;
 				@include font_style($text-color, 200, 1.5em);
 			}
-			img {
+			embed {
 				@include box_size(65em,40em);
 				margin-top: 1em;
 				margin-bottom: 1em;

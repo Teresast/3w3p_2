@@ -621,7 +621,7 @@ header > * {
   font-size: 1.5em;
 }
 /* line 421, ../sass/style.scss */
-.blog_list article section img {
+.blog_list article section embed {
   width: 65em;
   height: 40em;
   margin-top: 1em;
